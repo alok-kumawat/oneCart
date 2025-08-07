@@ -4,7 +4,7 @@ import Title from '../components/Title'
 import { useState } from 'react'
 import { useContext } from 'react'
 import { shopDataContext } from '../context/ShopContext'
-import { authDataContext } from '../context/authContext'
+import { authDataContext } from '../context/AuthContext'
 import { useEffect } from 'react'
 
 const Order = () => {
