@@ -15,7 +15,7 @@ let port = process.env.PORT || 6000
 let app = express()
 
 app.use(cors({
-    origin:["https://onecart-frontend-n53i.onrender.com/" , "https://onecart-adminalok.onrender.com"],
+    origin:["https://onecart-frontend-n53i.onrender.com" , "https://onecart-adminalok.onrender.com"],
     credentials:true
 }))
 app.use(express.json())
